@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* main {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+} */
+
+#menu {
+    width: 20%;
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    position: -webkit-sticky;
+    position: fixed;
+    height: 100%;
+}
+
+#menu ul li {
+    list-style: none;
+    margin: 3rem;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#menu ul li:hover {
+    border-bottom: .1rem solid black;
+    width: fit-content;
+}
+
+#container {
+    width: 80%;
+    position: absolute;
+    right: 0;
+    text-align: justify;
+}
+
+#container header {
+    height: 20vh;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    object-fit: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.img-principal {
+    background-image: url(/undraw_medicine_b-1-ol.svg);
+    background-position: 0 25%;
+}
+
+.img-sobre {
+background-image: url(/undraw_personal_data_re_ihde.svg);
+background-position: 0 10%;
+
+}
+
+.img-atendimento {
+    background-image: url(/undraw_night_calls_-5-jh7.svg);
+    background-position: 0 40%;
+}
+
+.img-contato {
+    background-image: url(/undraw_personal_text_re_vqj3.svg);
+    background-position: 0 35%;
+}
+
+#container .container-box {
+    padding: 3rem 6rem 0;
+    height: 75vh;
+}
+
+.container-box-contato {
+    padding: 3rem 6rem 0;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.container-box-contato a {
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+#container .container-content {
+    display: flex;
+    justify-content: center;   
+    font-size: 1.6rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-content-contato {
+    padding: 3rem 6rem 0;
+}
+
+
+iframe {
+    margin: 2rem 0 4rem;
+}
+
+#container .container-content table {
+    margin-top: 6rem;
+    border-collapse: collapse;
+    width: 75rem;
+}
+
+table {
+    border: .3rem solid gray;
+}
+
+thead {
+    background: black;
+    color: white;
+}
+
+td {
+    border: solid .2rem gray;
+}
+
+td, th {
+    text-align: center;
+    padding: 1rem;
+}
+
+td:first-child {
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background: #dddddd;
+}
+
+#container .container-box .container-content .text-principal {
+    column-count: 2;
+}
+
+#container h1, #container h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+form {
+    width: 100%;
+    font-size: 1.4rem;
+}
+
+form fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.6rem;
+}
+
+form fieldset legend {
+    padding: 0 .8rem;
+}
+
+form fieldset label {
+    padding: 1rem 0;
+}
+
+form fieldset input {
+    padding: .8rem 1.6rem;
+}
+
+form fieldset textarea {
+    resize: none;
+    height: 15rem;
+    padding: .8rem 1.6rem;
+}
+
+form fieldset button {
+    padding: 1.6rem;
+    margin-top: 1.6rem;
+}
+
+#container footer {
+    height: 5vh;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

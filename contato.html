@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contato</title>
+  </head>
+  <body>
+    <main>
+      <section id="menu">
+        <ul>
+          <li>
+            <a href="/index.html">Página principal</a>
+          </li>
+          <li>
+            <a href="/sobre.html">Sobre a clínica</a>
+          </li>
+          <li>
+            <a href="/atendimento.html">Horário de Atendimento</a>
+          </li>
+          <li>
+            <a href="/contato.html">Contato</a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="container">
+        <header class="img-contato"></header>
+
+        <article class="container-content-contato">
+          <h2>Contato</h2>
+          <form method="post" action="https://www.google.com.br/">
+            <fieldset>
+              <legend>Entre em contato</legend>
+              <label for="name">Nome:</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Nome completo"
+              />
+              <label for="email">E-mail:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Seu melhor e-mail"
+              />
+              <label for="text" name="msg" id="msg">Assunto:</label>
+              <textarea
+                name="msg"
+                id="msg"
+                placeholder="Sua melhor mensagem..."
+              ></textarea>
+              <button type="submit">Enviar</button>
+              <button type="reset">Limpar</button>
+            </fieldset>
+          </form>
+        </article>
+
+        <article class="container-box-contato">
+          <p>
+            Telefone de contato e/ou WhatsApp, basta clicar aqui:
+            <a
+              href="https://api.whatsapp.com/send?phone=5511912345678&text=Boa tarde!">
+              + 55 11 91234-5678.</a>
+            <br>
+            Endereço: Av. 7 de Setembro, 371 - Centro, Araraquara - SP, 14800-390.
+          </p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2940.3037259417756!2d-48.17510500100125!3d-21.79765687220158!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf04febe826f6d95d!2sDigital%20Innovation%20One!5e0!3m2!1spt-BR!2sbr!4v1670531891259!5m2!1spt-BR!2sbr"
+            width="900"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </article>
+
+        <footer>&copy; Copyright 2022 - Apolinário &#129305;</footer>
+      </section>
+    </main>
+  </body>
+</html>
